@@ -4,7 +4,7 @@ require_once 'db.php';
 require_once 'functions.php';
 
 
-$books = selectAll('books', options: " ORDER BY created_at DESC");
+$books = selectAll('books', [], " ORDER BY created_at DESC");
 
 isUser();
 logout();

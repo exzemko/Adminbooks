@@ -2,7 +2,7 @@
 session_start();
 require_once 'functions.php';
 $errmsg = '';
-echo $_SESSION['username'];
+
 
 if ($_POST) {
     $errmsg = userValidate($_POST);
